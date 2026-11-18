@@ -61,3 +61,11 @@ gutishuntaili/
 
 - 仓库只跟踪源码、工程文件与说明文档；`*.dat`、编译中间件、可执行文件不入库。
 - 数据文件可由程序重新生成，需要保存某次算例结果时请单独打包留存，不要直接提交。
+
+## 远程仓库与首次推送
+
+- `origin`: https://github.com/LIIIIIIIIIU/SPH-git.git
+- 首次推送：`git push -u origin main`（首次会弹出 GitHub 浏览器授权，登录 LIIIIIIIIIU 账号并授权仓库访问即可）
+- 之后日常同步：`git push`
+- 若提示 `rejected`（远程仓库初始化时带了 README）：先 `git fetch origin`，再 `git rebase origin/main`，然后重新 push
+- 若连接超时：确认本机代理软件已开启，再执行 `git config --global http.proxy http://127.0.0.1:7899`（端口按实际软件设置修改，用完后 `git config --global --unset http.proxy`）
