@@ -1,0 +1,5 @@
+* text=auto eol=crlf
+*.f    text eol=crlf
+*.for  text eol=crlf
+*.f90  text eol=crlf
+*.inc  text eol=crlf

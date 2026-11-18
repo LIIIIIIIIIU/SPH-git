@@ -1,0 +1,22 @@
+# Intel Fortran / Visual Studio 缂栬瘧浜х墿
+Debug/
+Release/
+x64/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.exe
+*.mod
+*.smod
+*.ipdb
+*.iobj
+*.manifest
+BuildLog.htm
+
+# SPH 绋嬪簭杩愯杈撳嚭锛堜綋绉ぇ銆佸彲鐢辩▼搴忛噸鏂扮敓鎴愶級
+*.dat
+fort.*
+
+# 分析用临时文本（由 _work/strip_f.py 生成）
+_active_*.txt
