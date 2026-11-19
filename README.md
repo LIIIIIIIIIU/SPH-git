@@ -64,7 +64,8 @@ gutishuntaili/
 
 ## 远程仓库与首次推送
 
-- `origin`: https://github.com/LIIIIIIIIIU/SPH-git.git
+- 本地仓库目录：`D:\SPH-program`（与 Git 安装目录 `D:\Git` 区分开，二者不是同一层级的东西）
+- `origin`: `git@github.com:LIIIIIIIIIU/SPH-git.git`（SSH；远程仓库名仍为 SPH-git）
 - 首次推送：`git push -u origin main`（首次会弹出 GitHub 浏览器授权，登录 LIIIIIIIIIU 账号并授权仓库访问即可）
 - 之后日常同步：`git push`
 - 若提示 `rejected`（远程仓库初始化时带了 README）：先 `git fetch origin`，再 `git rebase origin/main`，然后重新 push
